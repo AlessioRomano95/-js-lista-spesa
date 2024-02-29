@@ -18,6 +18,8 @@ const listaSpesa = [
   "Guanciale",
   "Pecorino",
   "Peperoncino",
+  "Parmiggiano",
+  "Succo di frutta",
 ];
 console.log(listaSpesa);
 
