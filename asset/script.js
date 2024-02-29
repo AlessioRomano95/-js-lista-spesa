@@ -19,5 +19,14 @@ const listaSpesa = [
   "Pecorino",
   "Peperoncino",
 ];
-console.log(listaspesa)
+console.log(listaSpesa);
 
+let i = 0
+
+const listaCompleta = document.getElementById("listaspesa");
+
+while ( i < listaSpesa.length) {
+  listaCompleta.innerHTML += `<p id="listaspesa">${listaSpesa[i]}</p>`;
+  i++;
+  
+}
